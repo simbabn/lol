@@ -20,9 +20,24 @@ def sum_n():
     result = int(result/2)
     print(result)
 
+def palindrome():
+    #Getting the string
+    my_str = input('Entrez le premier mot: ') 
+    my_str = my_str.casefold()
+    #reverse the string
+    rev_str = reversed(my_str)
+
+    #test if strings are the same
+    if list(my_str) == list(rev_str):
+        print("The string is a palindrome.")
+    else:
+        print("The string is not a palindrome.")
+
+
 
 if __name__ == '__main__':
-    hello()
-    name()
-    sum()
-    sum_n()
+    # hello()
+    # name()
+    # sum()
+    # sum_n()
+    palindrome()
