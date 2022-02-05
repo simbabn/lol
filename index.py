@@ -14,7 +14,15 @@ def sum():
     #printing
     print(s)
 
+def sum_n():
+    n=(int)(input("enter the number : "))
+    result= n*(n+1)
+    result = int(result/2)
+    print(result)
+
+
 if __name__ == '__main__':
     hello()
     name()
     sum()
+    sum_n()
