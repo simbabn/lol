@@ -33,11 +33,16 @@ def palindrome():
     else:
         print("The string is not a palindrome.")
 
+def reverse():
+    word = input("votre mot : ")
+    word = str(word)[::-1]
+    print(word)
 
 
 if __name__ == '__main__':
-    # hello()
-    # name()
-    # sum()
-    # sum_n()
+    hello()
+    name()
+    sum()
+    sum_n()
     palindrome()
+    reverse()
